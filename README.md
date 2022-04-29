@@ -1,0 +1,5 @@
+- Fazer o lint funcionar (ter as regras de lint local)
+- Fazer o tsconfig global
+- Adicionar o https://playwright.dev/
+- Adicionar o https://testing-library.com/docs/react-testing-library/intro/
+- Criar o provider bonitinho pra reusar com configs gerais
