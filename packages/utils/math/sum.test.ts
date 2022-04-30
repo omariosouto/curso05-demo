@@ -1,7 +1,7 @@
-import { sum } from './sum';
+import { sum } from "./sum";
 
-describe('sum()', () => {
-  it('should return the sum of the given numbers', () => {
+describe("sum()", () => {
+  it("should return the sum of the given numbers", () => {
     expect(sum(1, 2)).toBe(3);
   });
 });
