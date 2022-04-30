@@ -9,9 +9,6 @@
       "setup/*",
       "packages/*",
       "projects/*"
-    ],
-    "nohoist": [
-      "eslint/**"
     ]
   },
   "scripts": {
