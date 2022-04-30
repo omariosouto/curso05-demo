@@ -8,7 +8,6 @@
       "test": "jest"
     },
     "dependencies": {
-      "@alura/eslint-commons": "*",
       "@alura/tsconfig-commons": "*",
       "@alura/utils": "*"
     }
