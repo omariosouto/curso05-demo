@@ -7,6 +7,7 @@
     "base.ts"
   ],
   "dependencies": {
+    "@testing-library/react": "^13.1.1",
     "jest": "27.0.0",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0"

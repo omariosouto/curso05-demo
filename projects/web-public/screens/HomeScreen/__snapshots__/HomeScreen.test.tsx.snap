@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect home expect home 1`] = `
+<div>
+  <div>
+    <h2>
+      Home Screen do Projeto :)
+    </h2>
+    <p>
+      Resultado da soma do commons: 
+      4
+    </p>
+  </div>
+</div>
+`;
