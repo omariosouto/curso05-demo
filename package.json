@@ -17,7 +17,11 @@
     "utils": "yarn workspace @alura/utils",
     "dev:utils": "yarn utils dev",
     "lint:utils": "yarn utils lint",
-    "test:utils": "yarn utils test"
+    "test:utils": "yarn utils test",
+    "design-system": "yarn workspace @alura/design-system",
+    "dev:design-system": "yarn design-system dev",
+    "lint:design-system": "yarn design-system lint",
+    "test:design-system": "yarn design-system test"
   },
   "devDependencies": {
     "prettier": "latest",

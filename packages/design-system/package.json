@@ -3,7 +3,11 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
+    "scripts": {
+      "test": "jest"
+    },
     "dependencies": {
+      "@alura/eslint-commons": "*",
       "@alura/tsconfig-commons": "*",
       "@alura/utils": "*"
     }
