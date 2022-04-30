@@ -6,6 +6,10 @@
   "files": [
     "base.js"
   ],
+  "scripts": {
+    "test": "echo 'Not implemented'",
+    "lint": "echo 'Not implemented'"
+  },
   "dependencies": {
     "eslint-plugin-jest": "26.1.5",
     "eslint-config-next": "12.0.8",

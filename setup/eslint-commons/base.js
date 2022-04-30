@@ -2,11 +2,11 @@ module.exports = {
   extends: [
     "next",
     "eslint:recommended",
-    "jest",
+    // "jest",
     "plugin:prettier/recommended"
   ],
   env: {
-    "jest/globals": true
+    // "jest/globals": true
   },
   rules: {
     "no-console": "error",

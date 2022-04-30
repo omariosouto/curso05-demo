@@ -5,6 +5,10 @@
     "main": "index.js",
     "files": [
       "base.json"
-    ]
+    ],
+    "scripts": {
+      "test": "echo 'Not implemented'",
+      "lint": "echo 'Not implemented'"
+    }
   }
   
