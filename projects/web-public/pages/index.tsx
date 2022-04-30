@@ -1,14 +1,15 @@
 import { sum } from '@alura/utils';
+import { Text } from '@alura/design-system/components/Text';
 
 export default function HomeScreen() {
-    return (
-        <div> 
-            <h1>
-                Home Screen do Projeto :)
-            </h1>
-            <p>
-                Resultado da soma: {sum(2,2)}
-            </p>
-        </div>
-    ); 
+  return (
+    <div>
+      <Text tag="h2">
+        Home Screen do Projeto :)
+      </Text>
+      <Text tag="p">
+        Resultado da soma do commons: {sum(2, 2)}
+      </Text>
+    </div>
+  );
 }

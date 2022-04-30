@@ -7,5 +7,9 @@
   "workspaces": [
     "libs/*",
     "projects/*"
-  ]
+  ],
+  "scripts": {
+    "web-public": "yarn workspace @alura/web-public",
+    "dev:web-public": "yarn web-public dev"
+  }
 }
