@@ -6,8 +6,8 @@ const config: Config.InitialOptions = {
   testEnvironment: 'jsdom',
   preset: 'ts-jest',
   setupFilesAfterEnv: [
-    path.resolve(__dirname, 'setupTests.js')
-],
+    path.resolve(__dirname, 'src', 'setupTests.js'),
+  ],
   verbose: true,
   transform: {
     '\\.[jt]s?$': 'ts-jest',
