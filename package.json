@@ -12,9 +12,13 @@
   "scripts": {
     "web-public": "yarn workspace @alura/web-public",
     "dev:web-public": "yarn web-public dev",
-    "lint:web-public": "yarn web-public lint"
+    "lint:web-public": "yarn web-public lint",
+    "test:web-public": "yarn web-public test"
   },
   "devDependencies": {
-    "prettier": "latest"
+    "prettier": "latest",
+    "@types/jest": "27.4.1",
+    "@types/node": "17.0.30",
+    "@types/react": "18.0.8"
   }
 }
