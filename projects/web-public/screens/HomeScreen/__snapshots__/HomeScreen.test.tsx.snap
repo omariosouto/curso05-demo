@@ -3,10 +3,14 @@
 exports[`expect home expect home 1`] = `
 <div>
   <div>
-    <h2>
+    <h2
+      class="sc-bczRLJ dAxGnW"
+    >
       Home Screen do Projeto :)
     </h2>
-    <p>
+    <p
+      class="sc-bczRLJ dAxGnW"
+    >
       Resultado da soma do commons: 
       4
     </p>
