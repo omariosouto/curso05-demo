@@ -29,6 +29,7 @@
     "test:design-system": "yarn design-system test"
   },
   "devDependencies": {
+    "typescript": "4.5.5",
     "eslint": "8.14.0",
     "prettier": "2.6.2",
     "@types/jest": "27.4.1",
