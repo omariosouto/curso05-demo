@@ -13,7 +13,11 @@
     "web-public": "yarn workspace @alura/web-public",
     "dev:web-public": "yarn web-public dev",
     "lint:web-public": "yarn web-public lint",
-    "test:web-public": "yarn web-public test"
+    "test:web-public": "yarn web-public test",
+    "utils": "yarn workspace @alura/utils",
+    "dev:utils": "yarn utils dev",
+    "lint:utils": "yarn utils lint",
+    "test:utils": "yarn utils test"
   },
   "devDependencies": {
     "prettier": "latest",

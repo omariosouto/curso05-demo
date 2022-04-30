@@ -1,4 +1,4 @@
-import { sum } from "@alura/utils";
+import { sum } from "@alura/utils/math/sum";
 import { Text } from "@alura/design-system/components/Text";
 
 export default function HomeScreen() {
