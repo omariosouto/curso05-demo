@@ -18,6 +18,7 @@
     "dev:web-public": "yarn web-public dev",
     "lint:web-public": "yarn web-public lint",
     "test:web-public": "yarn web-public test",
+    "build:web-public": "yarn web-public build",
     "utils": "yarn workspace @alura/utils",
     "dev:utils": "yarn utils dev",
     "lint:utils": "yarn utils lint",
@@ -28,8 +29,8 @@
     "test:design-system": "yarn design-system test"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "prettier": "latest",
+    "eslint": "8.14.0",
+    "prettier": "2.6.2",
     "@types/jest": "27.4.1",
     "@types/node": "17.0.30",
     "@types/react": "18.0.8",
