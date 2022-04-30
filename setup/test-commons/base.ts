@@ -4,13 +4,11 @@ import path from 'path';
 // Sync object
 const config: Config.InitialOptions = {
   testEnvironment: 'jsdom',
-  preset: 'ts-jest',
   setupFilesAfterEnv: [
     path.resolve(__dirname, 'src', 'setupTests.js'),
   ],
   verbose: true,
   transform: {
-    '\\.[jt]s?$': 'ts-jest',
     '\\.[jt]sx?$': ['babel-jest', {
       configFile: path.resolve(__dirname, '.babelrc'),
     }],
