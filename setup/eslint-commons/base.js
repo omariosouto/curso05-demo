@@ -5,11 +5,6 @@ module.exports = {
     "jest",
     "plugin:prettier/recommended"
   ],
-  settings: {
-    next: {
-      rootDir: ["apps/*/", "packages/*/"],
-    },
-  },
   env: {
     "jest/globals": true
   },
