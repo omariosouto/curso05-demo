@@ -1,15 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`expect home expect home 1`] = `
+.c0 {
+  font-family: sans-serif;
+}
+
 <div>
   <div>
     <h2
-      class="sc-bczRLJ dAxGnW"
+      class="c0"
     >
       Home Screen do Projeto :)
     </h2>
     <p
-      class="sc-bczRLJ dAxGnW"
+      class="c0"
     >
       Resultado da soma do commons: 
       4
